@@ -1,0 +1,4 @@
+# Many Platforms as a Service needs that requirements.txt file
+# resides in the project root.
+
+-r requirements/production.txt

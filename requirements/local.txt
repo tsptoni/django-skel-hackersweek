@@ -1,0 +1,19 @@
+# All packages for developers should be here, as
+# testing and docs packages.
+-r production.txt
+
+# Deployment
+Fabric
+
+# Documentation
+Sphinx
+
+# Testing
+# It is enough with Python unittest module in majority of projects.
+# Uncomment if do you want use others:
+# nose
+# mock
+# django-nose
+# coverage
+# pep8
+# pylint
