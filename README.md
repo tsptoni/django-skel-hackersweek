@@ -1,2 +1,2 @@
-django-skel-hackersweek
+{{ project_name }}
 =======================
