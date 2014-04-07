@@ -45,29 +45,17 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     # Third-party apps, patches, fixes
-    'djcelery',
-    'debug_toolbar',
-    'compressor',
+    #'djcelery',
+    #'debug_toolbar',
+    #'compressor', # django-compressor do not support Python 3
 
     # Database migrations
-    'south',
+    #'south', # South do not support Python 3
 
-    # Application base, containing global templates.
-    'base',
+    # Application base named website, containing global templates.
+    'website',
 
     # Local apps, referenced via appname
-)
-
-# Place bcrypt first in the list, so it will be the default password hashing
-# mechanism
-PASSWORD_HASHERS = (
-    'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
-    'django.contrib.auth.hashers.BCryptPasswordHasher',
-    'django.contrib.auth.hashers.PBKDF2PasswordHasher',
-    'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
-    'django.contrib.auth.hashers.SHA1PasswordHasher',
-    'django.contrib.auth.hashers.MD5PasswordHasher',
-    'django.contrib.auth.hashers.CryptPasswordHasher',
 )
 
 # Sessions
@@ -120,7 +108,7 @@ USE_TZ = True
 # although not all choices may be available on all operating systems.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'Europe/Madrid'
 
 # List of finder classes that know how to find static files in
 # various locations.
