@@ -1,4 +1,5 @@
-s is an example settings/local.py file.
+"""
+This is an example settings/local.py file.
 These settings overrides what's in settings/base.py
 """
 

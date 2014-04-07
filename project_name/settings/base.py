@@ -1,4 +1,5 @@
-s is your project's main settings file that can be committed to your
+"""
+This is your project's main settings file that can be committed to your
 repo. If you need to override a setting locally, use local.py
 """
 
