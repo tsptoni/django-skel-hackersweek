@@ -3,10 +3,10 @@
 -r production.txt
 
 # Deployment
-Fabric
+# Fabric
 
 # Documentation
-Sphinx
+# Sphinx
 
 # Testing
 # It is enough with Python unittest module in majority of projects.
